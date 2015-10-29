@@ -46,3 +46,17 @@ for (key, value) in sampleDict {
 for item in sampleList {
    println("The current item is \(item)")
 }
+
+var output = ""
+var message = "can you reverse this string?"
+for (var i = message.length() - 1; i >= 0; i--) {
+   output += message.charAt(i);
+}
+return output;
+
+
+
+
+
+
+
