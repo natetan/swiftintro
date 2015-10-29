@@ -1,1 +1,1 @@
-pr{}{}tl{}{}"H{}{}lo Wo{}{}d!{}{}
+println("Hello World!")
