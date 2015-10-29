@@ -2,26 +2,19 @@
 var optionalString: String? = "Temp"  
 
 // This is a simple condition
-if (sampleInteger > 4)      
-{       
+if (sampleInteger > 4) {       
    println("true")
-}
-else
-{
+} else {
    // Using 'if' and 'let' together allows you to check for values that might be missing
-   if let nonOptionalString = optionalString
-   {
+   if let nonOptionalString = optionalString {
       println("The string's value is: \(nonOptionalString)")
-   }
-   else
-   {
+   } else {
       // If we made it here, it means that the optionalString's value was nil
    }
 }
 
 // This is how you use a switch statement
-switch sampleString   
-{
+switch sampleString {
    // Switch statements aren't limited to just integers
    case "Constant":
       sampleInteger = 10    
@@ -40,19 +33,16 @@ switch sampleString
 }
 
 // A simple for loop
-for (var i = 0; i < 6; i++)
-{
+for (var i = 0; i < 6; i++) {
    println("This is round #\(i)")
 }
 
 // A simple loop on a dictionary
-for (key, value) in sampleDict  
-{
+for (key, value) in sampleDict {
    println("The value for \(key) is \(value)")
 }
 
 // A simple loop on an array
-for item in sampleList    
-{
+for item in sampleList {
    println("The current item is \(item)")
 }
